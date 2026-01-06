@@ -11,7 +11,11 @@ body{
 }
 
 #hero_area{
+  background: url(/images/developer.png),url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: 23px 25px,bottom right;
 
+background-color: #FFF8F3;
   padding-top:67px ;
 }
 .main_container{
@@ -30,6 +34,7 @@ img{
   border-radius: 5px;
   padding: 18px 39px;
   cursor: pointer;
+  border: none;
 }
 
 
@@ -59,3 +64,71 @@ img{
 .navigation h2 .primary{
   color: #FD6E0A;
 }
+
+
+
+.hero_content{
+
+  margin: 46px 38px 0 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro{
+    max-width: 573px; 
+}
+
+.intro h4{
+  font-size: 45px;
+  font-weight: 400;
+  color: #474747;
+  margin-bottom: 5px;
+}
+
+.intro h2{
+  font-size: 85px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color:#181818;
+
+
+}
+
+.intro p{
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+
+}
+
+.button_area{
+  margin-top: 30px;
+
+}
+
+.button_area button{
+  margin-right: 12px;
+}
+
+#call_btn{
+  border: 1px solid #FD6E0A;
+  background-color: white;
+  color: #FD6E0A;
+}
+
+.hero_image{
+display: flex;
+justify-content: flex-end;
+max-width: 527px;
+height: 633px;
+}
+
+
+.hero_image .image img{
+  vertical-align:middle;
+}
+
+
+
+
