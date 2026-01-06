@@ -279,6 +279,69 @@ margin: 10px 0;
   color: #757575;
 }
 
+#port_footer{
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
+
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  gap: 117px;
+}
+
+
+.contact_area h3{
+font-size: 35px;
+font-weight: bold;
+color: #181818;
+margin-bottom: 20px;
+}
+
+.contact_area p{
+line-height: 28px;
+color:#474747;
+margin-bottom: 30px;
+}
+
+
+.icons_area{
+  display: flex;
+  gap: 24px;
+}
+
+
+.form_area{
+flex-basis: 40%;
+max-width: 462px;
+}
+
+.form_area   h3{
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 28px;
+  font-weight: bold;
+}  
+
+
+
+.input_area input,textarea{
+  width: 100%;
+  border-radius: 5px;
+  padding: 18px 30px;
+  margin-bottom: 24px;
+  border: none;
+
+}
+
+.contact_area{
+  flex-basis: 49%;
+  max-width: 562px;
+}
+
+
+
 
 
 
