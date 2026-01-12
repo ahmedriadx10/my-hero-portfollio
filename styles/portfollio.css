@@ -21,7 +21,6 @@ background-color: #FFF8F3;
   padding-top:67px ;
 }
 .main_container{
-width: 75%;
   max-width: 1140px;
 margin: 0 auto;
 }
@@ -101,6 +100,7 @@ img{
 
 .intro{
     max-width: 573px; 
+    width: 100%;
 }
 
 .intro h4{
@@ -192,7 +192,7 @@ gap: 24px;
 }
 
 .card{
-  max-width: 267px;
+  flex: 1;
   border-radius: 5px;
 box-shadow: 0 6px 50px #00000010;
 padding: 30px;
@@ -313,7 +313,6 @@ margin-bottom: 30px;
 
 
 .form_area{
-flex-basis: 40%;
 max-width: 462px;
 }
 
@@ -336,13 +335,145 @@ max-width: 462px;
 }
 
 .contact_area{
-  flex-basis: 49%;
   max-width: 562px;
 }
 
 
 
 
+.hide{
+  display: none !important;
+}
+
+/* responsive desing */
+
+@media screen and (max-width:576px){
+
+.main_container{
+width: 96%;
+padding: 0 5px;
+}
+
+#port_footer
+ {
+
+    padding: 50px 0;
+}
+.container {
+  flex-direction: column;
+  
+}
+
+.contact_area {
+ text-align: center;
+
+}
+ .icons_area{
+justify-content: center;
+}
+
+.form_area .form_heading{
+  text-align: center;
+}
+ 
+
+.form_btn_area{
+  text-align: center;
+}
 
 
+.skill_container {
+    padding-top: 75px;
+ text-align: center;
+
+    flex-direction: column;
+}
+
+
+
+.edu_card {
+    padding:20px;
+}
+
+#experience_area {
+    padding: 50px 0;
+}
+
+
+.exp_controls {
+    padding:10px;
+}
+
+.exp_cards {
+ flex-direction: column;
+ align-items: center;
+}
+
+
+
+
+
+#about_area {
+    padding-top: 50px;
+}
+
+.about_info {
+ flex-direction: column;
+gap: 30px;
+}
+
+
+.navigation {
+    
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+.navigation ul{
+  flex-direction: column;
+}
+
+
+
+.hero_content {
+    margin:0;
+  flex-direction: column;
+}
+
+
+
+
+.intro{
+  margin: 40px 0;
+  padding:15px ;
+  text-align: center;
+}
+
+.intro h2{
+  font-size:43px ;
+}
+
+.button_area{
+  text-align: center;
+}
+
+.button_area button{
+  margin-top: 15px;
+}
+
+
+
+
+#hero_area {
+    background:url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #FFF8F3;
+    padding-top: 67px;
+}
+
+
+
+}
 
